@@ -34,6 +34,13 @@ python examples/offline_inference/basic/chat.py
 python examples/offline_inference/basic/generate.py
 ```
 
+The logprobs script demonstrates how to request prompt and completion log
+probabilities.
+
+```bash
+python examples/offline_inference/basic/logprobs.py
+```
+
 ## Features
 
 In the scripts that support passing arguments, you can experiment with the following features.
