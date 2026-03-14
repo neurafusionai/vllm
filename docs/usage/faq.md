@@ -33,3 +33,9 @@ different tokens being sampled. Once a different token is sampled, further diver
 - For improved stability and reduced variance, use `float32`. Note that this will require more memory.
 - If using `bfloat16`, switching to `float16` can also help.
 - Using request seeds can aid in achieving more stable generation for temperature > 0, but discrepancies due to precision differences may still occur.
+
+---
+
+> Q: Is vLLM related to LLVM?
+
+A: No. They are separate open-source projects with different goals. vLLM is an LLM inference and serving engine, while LLVM is a compiler toolchain infrastructure project.
